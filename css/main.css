@@ -1,0 +1,442 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* estilos generales */
+body{
+    background-color: white;
+}
+
+/* estilos de header */
+header{
+    background-color: rgb(195, 40, 20);
+    padding: 8px;
+    margin: 2px;
+    text-align: center;
+}
+header .navbar{
+    background-color: rgb(195, 40, 20);
+}
+.nav-item{
+    font-size: 18px;
+}
+.navbar-nav .nav-link:hover{
+    box-shadow: 2px 6px 8px #555;
+}
+/* fin estilos header */
+
+/* estilos de main */
+main{
+    margin: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-column: 1fr;
+    grid-template-rows: 1fr;
+}
+
+/* estilos del index */
+.general{
+    background-color: none;
+}
+.general h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.auto{
+    background-color: whitesmoke;
+}
+.auto h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.auto p{
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+}
+.home{
+    background-color: whitesmoke;
+}
+.home h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.home p{
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+}
+.servicios{
+    margin: 0 0 8px;
+    padding: 16px;
+    background-color: whitesmoke;
+}
+.servicios h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.servicios p{
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.servicios ul li{
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    list-style-type: none;
+}
+
+.nosotros{
+    margin: auto;
+    padding: auto;
+    background-color: whitesmoke;
+}
+.nosotros h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nosotros p{
+    margin: 0 0 8px;
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+
+}
+.contacto{
+    margin: auto;
+    padding: auto;
+    background-color: whitesmoke;
+    text-align: left;
+    font-size: 16px;
+}
+.contacto h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contacto p{
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+}
+/* fin estilos del index.html */
+
+/* estilos de servicios.html */
+.servi{
+    background-color: whitesmoke;
+}
+.servi h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main .div-uno{
+    margin: 20px 0;
+    padding-top: 15px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div-uno img{
+    width: 50%;
+    height: 20px;
+}
+
+.div-uno h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.div-uno p{
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* estilos de nosotros.html */
+.nos{
+    background-color: whitesmoke;
+    display: inline-block;
+}
+.nos h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nos p{
+    font-style: italic;
+}
+.nos img{
+    margin: 10px;
+    padding: 20px;
+    background-color: #999;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
+}
+
+/* estilos de multimedia.html */
+.tit{
+    background-color: none;
+}
+.titul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sub p{
+    margin: 20px;
+    padding: 30px;
+    font-size: 16px;
+}
+.gal{
+    background-color: none;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+}
+.multi{
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+    background-color: whitesmoke
+}
+.multi img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
+}
+
+.sub p{
+    background-color: whitesmoke;
+}
+
+.preguntas{
+    background-color: whitesmoke;
+}
+.preguntas h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.faq-item{
+    background-color: none;
+    text-align: center;
+}
+.faq-item p{
+    text-align: center;
+    font-style: italic;
+}
+
+main h1{
+    padding: 1rem;
+    text-align: center;
+}
+
+main h2{
+    padding: 1rem;
+    text-align: center;
+}
+
+/* estilos de contacto */
+.final{
+    background-color: whitesmoke;
+}
+
+.final h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.final h2{
+    text-align: center;
+}
+.datos{
+    margin: auto;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.datos h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.datos p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.maps{
+    background-color: whitesmoke;
+
+}
+.maps iframe{
+    width: 100%;
+    height: 500px;
+    border: 0;
+    margin: 1rem 0;
+}
+.formu{
+    background-color: whitesmoke;
+    
+}
+form{
+    background-color: #ededed;
+    margin: 15px;
+    padding: 20px;
+    max-width: 80%;
+    box-shadow: 0 0 20px #0006;
+}
+form fieldset{
+    background-color: whitesmoke;
+}
+form div{
+    display: inline-block;
+}
+form fieldset legend{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+form input{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border: 3px solid #ccc;
+    box-shadow: 0 0 15px #0001;
+}
+div label{
+    display: inline;
+    margin: 8px;
+    padding: 8px;
+    font-size: 15px;
+    color: black
+}
+.mensaje{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+div textarea{
+    width: 100%;
+    max-width: 500px;
+    height: 150px;
+    resize: none;
+    overflow: hidden;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #999;
+    color: white;
+}
+
+
+
+/* estilos de footer */
+footer{
+    margin: auto;
+    padding: auto;
+    background-color: rgb(195, 40, 20);
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    font-size: 16px;
+}
+
+footer p a{
+    color: whitesmoke;
+}
+
+
+/* estilos de main mobile */
+
+
+@media screen and (max-width: 600px){
+    main .gal{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    main .div-uno{
+        padding: 0.5rem;
+    }
+    main .div-uno img{
+        width: 100%;
+        height: auto;
+    }
+    main .tit{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .multi{
+        margin-bottom: 20px;
+    }
+    .preguntas{
+        padding: 0 10px;
+    }
+    .faq.items{
+        margin-bottom: 20px;
+    }
+}
+
+/* estilos de main desktop */
+@media screen and (min-width: 1024px){
+    .servi{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    /* estilo de main flex */
+    main .servi{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    main .div-uno{
+        flex: 1 1 45%;
+        margin: 10px;
+    }
+
+    main .div-uno img{
+        width: 40%;
+        height: auto;
+
+    }
+}
